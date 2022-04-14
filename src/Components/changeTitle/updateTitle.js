@@ -10,7 +10,7 @@ const UpdateTitle = (props) => {
                 onChange={props.onChange}
                  value={props.title}
             />
-            <button onClick={props.changeButtonClicked}>Change Title </button>
+            <button onClick={props.changeButtonClicked}>Update Title </button>
         </div>
     );
 };
