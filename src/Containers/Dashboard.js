@@ -1,7 +1,7 @@
-import Posts from "../Posts/Posts";
+import Posts from "./Posts/Posts";
 import {useState} from 'react';
-import NewPost from "../../components/NewPost/NewPost";
-import UpdateTitle from "../../components/changeTitle/updateTitle";
+import NewPost from "../Components/NewPost/NewPost";
+import UpdateTitle from "../Components/changeTitle/updateTitle";
 import ChangeTitle from "../Components/changeTitle/ChangeTitle";
 
 

@@ -1,8 +1,8 @@
 import {useState} from 'react';
 import './App.css';
-import Post from './components/Post/Post';
-import Dashboard from './containers/dashboard/Dashboard';
-import Posts from '../../containers/Posts/Posts';
+import Post from './Components/Post/Post';
+import Posts from './Containers/Posts/Posts';
+import Dashboard from './Containers/Dashboard';
 
 function App() {
   return (
