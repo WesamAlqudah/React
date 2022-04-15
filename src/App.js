@@ -1,16 +1,16 @@
-import {useState} from 'react';
 import './App.css';
-import Post from './Components/Post/Post';
-import Posts from './Containers/Posts/Posts';
-import Dashboard from './Containers/Dashboard';
+import Dashboard from './containers/dashboard/Dashboard';
 
 function App() {
-  return (
-    <div className="App">
-      <h3>MIU </h3>
-      <Dashboard />
-    </div>
-  );
+
+
+    return (
+        <div className="App">
+            <h1> Welcome WAA </h1>
+            <Dashboard/>
+
+        </div>
+    );
 }
 
 export default App;
