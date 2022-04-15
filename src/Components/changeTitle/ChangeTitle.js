@@ -14,10 +14,7 @@ const ChangeTitle = (props) => {
                     onChange={props.onChange}
                     value={props.title}
                 />
-
-
-
-                <button onClick={props.addButtonClicked}>change </button>
+                <button onClick={props.changeButtonClicked}>change </button>
         </div>
     );
 

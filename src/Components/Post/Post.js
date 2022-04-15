@@ -3,9 +3,9 @@ const Post = (props) => {
 
     return (
         <div className="Content">
-            {/* <div className="Field">
+            <div className="Field">
                 {props.id}
-            </div> */}
+            </div>
             <h1> {props.title}</h1>
             <div className="Field">
                 {props.author}

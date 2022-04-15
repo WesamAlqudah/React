@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 const NewPost = (props) => {
 
@@ -8,18 +9,18 @@ const NewPost = (props) => {
          
                 <h1>Add a Post</h1>
 
-                <label>Name</label>
+                <label>title</label>
                 <input type="text"
-                    label={'name'}
-                    name={'name'}
+                    label={'title'}
+                    name={'title'}
                     onChange={props.onChange}
                     value={props.title}
                 />
 
-                <label>Price</label>
+                <label>author</label>
                 <input type="text"
-                    label={'price'}
-                    name={'price'}
+                    label={'author'}
+                    name={'author'}
                     onChange={props.onChange}
                     value={props.author}
                 />
