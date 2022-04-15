@@ -16,7 +16,7 @@ export default function Dashboard() {
         { id: 113, title: "Enjoy Life", author: "Jasmine" }]);
 
     const [postState, setPostState] = useState({
-        id: 0, title: "", author: ""
+         title: "", author: ""
     })
 
 
@@ -33,6 +33,7 @@ export default function Dashboard() {
         setPost(copy);
 
     }
+    
 
     const addButtonClicked = () => {
         const copy = { ...postState };
@@ -48,7 +49,7 @@ export default function Dashboard() {
         const copy = { ...post };
         const copyPostsState = [...postsState]
         copyPostsState[0].title = copy.title;
-        console.log(copyPostsState[0].title)
+        console.log(copyPostsState.title)
         //   copyPostsState.push(copy);
         setPostsState(copyPostsState);
     }
@@ -69,8 +70,14 @@ export default function Dashboard() {
                 changeButtonClicked={changeTitleButtonClicked}
             />
         </div>
-
+                
         <div>
+        {/* <NewPost
+                title={postState.title}
+                author={postState.author}
+                onChange={(event) => { onChange(event) }}
+                addButtonClicked={addButtonClicked}
+            /> */}
         </div>
     </div>)
 
